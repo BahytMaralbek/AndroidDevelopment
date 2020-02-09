@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="15dp"
+        android:background="#00BCD4"
+        android:text="Как доехать?"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="15dp"
+        android:background="#00BCD4"
+        android:text="Транспортная карта"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="15dp"
+        android:background="#00BCD4"
+        android:text="Справочник"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="15dp"
+        android:background="#00BCD4"
+        android:text="Настройки"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="15dp"
+        android:background="#00BCD4"
+        android:text="Помощь"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:background="#00BCD4"
+        android:text="О программе"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="412sp"
+        android:layout_height="40sp"
+        android:autoText="true"
+        android:background="#00BCD4"
+        android:text="                               CITYBUS"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-2dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="350sp"
+        android:layout_height="50sp"
+        android:layout_marginBottom="15dp"
+        android:background="#00BCD4"
+        android:text="Наблюдение"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        tools:layout_editor_absoluteX="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
