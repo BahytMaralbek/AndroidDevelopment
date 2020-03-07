@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#800080"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/agendize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="40dp"
+        android:text="agendize"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="120dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="65dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="30dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="65dp"
+        />
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="65dp"
+        android:text="Log in"
+        android:layout_marginTop="30dp"
+        android:background="#778899"
+        android:textColor="@android:color/white"
+        ></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up using email"
+        android:textColor="@android:color/white"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="15dp"></TextView>
+
+
+</LinearLayout>
